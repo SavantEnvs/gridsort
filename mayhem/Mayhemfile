@@ -1,0 +1,6 @@
+project: savantenvs/gridsort
+target: gridsort-fuzz
+
+cmds:
+  - cmd: /mayhem/gridsort-fuzz
+    libfuzzer: true
