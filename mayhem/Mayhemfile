@@ -1,0 +1,9 @@
+project: savantenvs/gridsort-repro-buggy-mhh-run-8
+target: gridsort-fuzz
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gridsort-fuzz/testsuite
+
+cmds:
+  - cmd: /mayhem/gridsort-fuzz
+    libfuzzer: true
