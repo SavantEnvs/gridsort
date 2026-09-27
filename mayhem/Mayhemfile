@@ -1,0 +1,8 @@
+project: savantenvs/gridsort
+target: gridsort-fuzz-buggy-mhh-run-8
+
+cmds:
+  - cmd: /mayhem/gridsort-fuzz
+    libfuzzer: true
+
+# origin: https://app.mayhem.security/mayhemheroes/gridsort/gridsort-fuzz/8
